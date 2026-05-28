@@ -3,7 +3,14 @@
 // The page will automatically show them all in order
 
 const pfpList = [
-  "pfp/pfp1.png",
-  "pfp/pfp2.jpg",
-  // "pfp/pfp3.png",  <- Example: uncomment and rename to add more
+  "pfp/car.png",
+  "pfp/moca2.png",
+  "pfp/moca1.jpg",
+  "pfp/theyletmecook.jpg",
+  "pfp/G11.png",
+  "pfp/fumo.jpg",
+  "pfp/kita.png",
+  "pfp/konata.jpg",
+  "pfp/mika.jpg",
+  "pfp/senko.png"
 ];
