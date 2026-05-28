@@ -1,7 +1,6 @@
 # mochi / nic
 
-personal corner of the internet. links, pfps, vibes.
-nothing serious, just a place to exist online.
+personal corner of the internet. links, pfps, etc.
 
 ---
 
