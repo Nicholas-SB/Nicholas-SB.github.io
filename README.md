@@ -1,4 +1,12 @@
-# mochi / nic — personal links page
+# mochi / nic
+
+personal corner of the internet. links, pfps, vibes.
+nothing serious, just a place to exist online.
+
+---
+
+<details>
+<summary>cheatsheet (for me)</summary>
 
 ## File structure
 
@@ -29,3 +37,5 @@ Search for `YOUR_` in the file to find all the placeholders.
 ### Change the Discord username
 In `index.html`, find `YOUR_DISCORD_USERNAME` and replace it.
 The copy button will automatically copy whatever text is there.
+
+</details>
