@@ -2,23 +2,24 @@
 const avatar = document.querySelector('.avatar-inner');
 const pick = pfpList[Math.floor(Math.random() * pfpList.length)];
 const avatarImg = document.createElement('img');
-avatarImg.src = pick;
+avatarImg.src = pick.src;
 avatarImg.alt = 'mochi';
 avatar.innerHTML = '';
 avatar.appendChild(avatarImg);
 
 // Render pfp images from pfps.js
 const row = document.getElementById('pfp-row');
-pfpList.forEach((src, i) => {
+pfpList.forEach((pfp, i) => {
   const item = document.createElement('div');
   item.className = 'pfp-item';
   const img = document.createElement('img');
-  img.src = src;
+  img.src = pfp.src;
   img.alt = 'pfp ' + (i + 1);
   img.loading = 'lazy';
   item.appendChild(img);
   item.addEventListener('click', () => {
-    document.getElementById('pfp-zoomed').src = src;
+    document.getElementById('pfp-zoomed').src = pfp.src;
+    document.getElementById('pfp-artist').textContent = pfp.artist ? pfp.artist : 'Missing Source';
     document.getElementById('pfp-overlay').classList.add('active');
   });
   row.appendChild(item);

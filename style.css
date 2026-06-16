@@ -254,7 +254,7 @@ h1 em { color: var(--amber); font-style: italic; }
 .section-pfp     { animation: fadeUp 0.5s ease both 0.24s; }
 
 .pfp-overlay {
-  display: none;
+  display: none;  
   position: fixed;
   inset: 0;
   background: rgba(45, 28, 10, 0.7);
@@ -346,4 +346,21 @@ h1 em { color: var(--amber); font-style: italic; }
     grid-template-columns: repeat(6, 68px);
     max-height: 78px;
   }
+}
+
+#pfp-artist {
+  position: fixed;
+  bottom: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 15 px;
+  font-weight: 400;
+  color: var(--amber-light);
+  background: rgba(45, 28, 10, 0.6);
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-family: 'DM Sans', sans-serif;
+  letter-spacing: 0.03em;
+  pointer-events: none;
+  z-index: 1000;
 }
